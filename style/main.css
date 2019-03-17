@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+}
+header{
+	background: #FF5300;
+	height: 10%;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
+nav{
+	background: #FF5300;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 5%;
+	width: 70%;
+	top: 10%;
+	position: fixed;
+}
+nav > .nav-btn{
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	border: 2px dotted #fff;
+}
+nav > .nav-btn:hover{
+	background: #FF4200;
+}
+#container{
+	background: #FF8A2D;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 100%;
+	width: 70%;
+	top: 15%;
+	position: fixed;
+}
+footer{
+	background: #FF4200;
+	height: 10%;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
