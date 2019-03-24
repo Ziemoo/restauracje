@@ -22,8 +22,61 @@
 		<div id="search-bar"></div>
 		<div id="cities"></div>
 		<div id="food-types"></div>
+		<form action="konto.php" method="POST">
+
+				<legend>Załóż konto jako recenzent/właściciel</legend>
+				<input type="text" placeholder="login">
+				
+				<input type="password" placeholder="hasło">
+				
+				<input type="submit" value="Zaloguj się">
+
+				<input type="submit" value="Załóż konto">
+				
+		</form>
 	</main>
+	<aside>
+		<div class="left">
+	
+				<form action="wyszukaj.php" method="POST">
+
+					<div class="row">
+
+							<legend>Wybierz Miasto</legend>	
+			
+								<label for="city">Miasto</label>	
+				
+								<select id="city">
+									
+									<option value="w">Warszawa</option>
+									<option value="p">Poznań</option>
+									<option value="k">Kraków</option>
+									<option value="h">Wrocław</option>
+									<option value="h">Katowice</option>
+									<option value="h">Gdańsk</option>
+				
+								</select>
+					</div>
+
+					<div class="row">
+				
+							<input type="submit" value="Potwierdz">
+
+					</div>		
+
+				</form>
+
+		</div>
+
+		<div class="right">
+			<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+				Quidem dolore illum tempore ratione obcaecati vel nisi molestias voluptates. 
+				Sapiente dignissimos labore vero blanditiis! In necessitatibus cupiditate, 
+				quidem culpa voluptatem quod.</div>
+		</div>
+	</aside>
 	<footer>
+		<p>Designer by Czupakabra code team<img src="img/m.jpg" alt="logo czupakabra"> &copy;</p>
 	</footer>
 </body>
 </html>
